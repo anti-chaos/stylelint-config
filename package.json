@@ -1,0 +1,36 @@
+{
+  "name": "@ntks/stylelint-config",
+  "version": "0.0.0",
+  "description": "Anti-chaos Stylelint Config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "author": "Ourai Lin <ourairyu@gmail.com> (https://ourai.ws/)",
+  "license": "MIT",
+  "scripts": {
+    "release": "npm publish --access=public"
+  },
+  "dependencies": {
+    "stylelint-config-sass-guidelines": "^8.0.0",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.19.0",
+    "stylelint-selector-bem-pattern": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.12.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=13.7.0"
+  }
+}

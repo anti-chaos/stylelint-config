@@ -1,0 +1,14 @@
+*.log
+
+.*-tmp
+.*-cache
+.DS_Store
+.git
+.idea
+.jekyll-metadata
+.tmp
+
+node_modules
+dist
+
+/backup
