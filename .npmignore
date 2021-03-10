@@ -4,6 +4,7 @@
 
 .*-tmp
 .*-cache
+.*ignore
 .bowerrc
 .DS_Store
 .git
