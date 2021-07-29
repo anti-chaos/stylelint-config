@@ -3,15 +3,16 @@
   "version": "0.0.3",
   "description": "Anti-chaos Stylelint Config",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
   "keywords": [
     "stylelint"
   ],
   "author": "Ourai Lin <ourairyu@gmail.com> (https://ourai.ws/)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anti-chaos/stylelint-config.git"
+  },
+  "homepage": "https://github.com/anti-chaos/stylelint-config#readme",
   "scripts": {
     "release": "npm publish --access=public"
   },
