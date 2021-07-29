@@ -303,47 +303,47 @@ module.exports = {
     'value-list-comma-space-before': 'never',
     'value-list-max-empty-lines': 0,
     'string-quotes': 'double',
-  },
-  // Order
-  'order/order': [
-    [
-      'custom-properties',
-      'dollar-variables',
-      {
-        'type': 'at-rule',
-        'name': 'extend'
-      },
-      {
-        'type': 'at-rule',
-        'name': 'include',
-        'hasBlock': false
-      },
-      'declarations',
-      {
-        'type': 'at-rule',
-        'name': 'include',
-        'hasBlock': true
-      },
-      'rules'
-    ]
-  ],
-  'order/properties-alphabetical-order': null,
-  'order/properties-order': [
-    [].concat(
-      thirdPartyProps,
-      selfInParentProps,
-      childrenInSelfProps,
-      selfSpecialProps,
-      boxModelProps,
-      typographyProps,
-      visualProps,
-      transformationrops,
-      animationProps
-    ),
-    { unspecified: 'bottomAlphabetical' },
-  ],
-  // BEM
-  'plugin/selector-bem-pattern': {
-    preset: 'suit',
+    // Order
+    'order/order': [
+      [
+        'custom-properties',
+        'dollar-variables',
+        {
+          'type': 'at-rule',
+          'name': 'extend'
+        },
+        {
+          'type': 'at-rule',
+          'name': 'include',
+          'hasBlock': false
+        },
+        'declarations',
+        {
+          'type': 'at-rule',
+          'name': 'include',
+          'hasBlock': true
+        },
+        'rules'
+      ]
+    ],
+    'order/properties-alphabetical-order': null,
+    'order/properties-order': [
+      [].concat(
+        thirdPartyProps,
+        selfInParentProps,
+        childrenInSelfProps,
+        selfSpecialProps,
+        boxModelProps,
+        typographyProps,
+        visualProps,
+        transformationrops,
+        animationProps
+      ),
+      { unspecified: 'bottomAlphabetical' },
+    ],
+    // BEM
+    'plugin/selector-bem-pattern': {
+      preset: 'suit',
+    },
   },
 };
