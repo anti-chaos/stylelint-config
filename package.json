@@ -1,6 +1,6 @@
 {
   "name": "@ntks/stylelint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Anti-chaos Stylelint Config",
   "main": "index.js",
   "keywords": [
