@@ -62,6 +62,18 @@ module.exports = {
     indentation: 2,
     'length-zero-no-unit': true,
     'max-empty-lines': 1,
+    'max-nesting-depth': [
+      2,
+      {
+        ignore: ['pseudo-classes'],
+        ignoreAtRules: [
+          'each',
+          'media',
+          'supports',
+          'include'
+        ]
+      }
+    ],
     'media-feature-colon-space-after': 'always',
     'media-feature-colon-space-before': 'never',
     'media-feature-name-case': 'lower',
@@ -103,5 +115,6 @@ module.exports = {
     'value-list-comma-space-after': 'always-single-line',
     'value-list-comma-space-before': 'never',
     'value-list-max-empty-lines': 0,
+    'string-quotes': 'double',
   },
 };
